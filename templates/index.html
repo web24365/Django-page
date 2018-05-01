@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<!--div class="page-header clear-filter">
+        <div class="rellax-header rellax-header-sky" data-rellax-speed="-8">
+            <div class="page-header-image" style='background-image: url("{% static 'assets/img/header.jpg' %}");'>
+            </div>
+        </div>
+        <div class="rellax-header rellax-header-buildings" data-rellax-speed="0">
+            <div class="n-logo"  style='background-image: url("{% static 'assets/img/iSecure/iSecure-03.png' %}");'>
+            </div>
+        </div>
+            <div class="rellax-text-container rellax-text">
+                <h1 class="h1-seo" data-rellax-speed="-2">Now UI Kit</h1>
+                <div class="pro">PRO</div>
+            </div>
+        <h3 class="h3-description rellax-text" data-rellax-speed="-1">A beautiful premium Bootstrap 4 UI Kit.</h3>
+        <h6 class="category category-absolute rellax-text" data-rellax-speed="-2">Made by blank"><a href="http://www.isecurekr.com/" target="_blank">iSecure Inc.</a></h6>
+</div-->
+<!-- Main -->
+<div class="page-header clear-filter" filter-color="orange">
+        <div class="rellax-header rellax-header-sky" data-rellax-speed="-10" data-rellax-zindex="5" style="background-image: url('{% static 'assets/img/header.jpg' %}');">
+        </div>
+        <div class="container">
+            <div class="content-center brand">
+                <img class="n-logo rellax" data-rellax-speed="-1" src="{% static 'assets/img/iSecure/iSecure-03.png' %}" alt="">
+                <h1 class="h1-seo rellax" data-rellax-speed="-2">아이시큐어</h1>
+                <h3 class="rellax" data-rellax-speed="-3">#ISMS 인증 컨설팅 #PC취약점 분석 #정보시스템 종합계획 #기반시설 취약점 분석 및 평가</h3>
+            </div>
+            <h6 class="category category-absolute rellax" data-rellax-speed="-1">
+                Made by <a href="http://www.isecurekr.com/" target="_blank">iSecure Inc.</a>
+            </h6>
+        </div>
+</div>
+<!-- Process -->
+<div class="section section-components" style="background: #170F22" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+                <h2 class="text-center title" style="color:rgba(255, 255, 255, 255)">Security is the Process, not a product
+                    <br><small class="category">보안 프로세스</small></h2>
+
+                <h5 class="text-center description">정보보호의 근본적인 현실은<br><q>복잡하다. 이것은 불안정하다는 의미이며, 취약점은 피할 수 없고, 보안 제품은 항상 부족</q>하기 때문에<br>
+                    조직에 맞게 <b class="pro">정립된 프로세스</b>가 가장 중요합니다.
+                </h5>
+                <div class="space-50"></div>
+            </div>
+    	</div>
+    </div>
+</div>
+<!-- Services -->
+<div class="section section-components">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+                <h2 class="text-center title">서비스</h2>
+                <h4 class="description">보안에 대한 전체적인 가시성을 확보하고 투자를 적절히 배분할 수 있도록 도와 드립니다.<br>
+                    이를 위해 서버, 네트워크에 대한 취약점 분석부터 모의해킹을 통해 문제점을 도출해 내며 이에 대한 보완 작업으로 정보보호 인증체계를 구축해드립니다.<br>
+                    특히, PC의 각종 문제들에 대한 분석과 해결을 위해 ToSee PC취약점 분석도구를 개발해 제공하고 있습니다.</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="info info-hover">
+                    <a href="\service\#ISMS"><div class="icon icon-success icon-circle">
+                        <i class="now-ui-icons design-2_ruler-pencil"></i>
+                    </div></a>
+                    <h4 class="info-title">ISMS 인증 컨설팅</h4>
+                    <p class="description">정보보호 관리체계(ISMS)에 적합한 내부 프로세스를 정립하고 인증 획득까지 지원</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="info info-hover">
+                    <a href="\service\#Vul"><div class="icon icon-info icon-circle">
+                        <i class="now-ui-icons ui-1_lock-circle-open"></i>
+                    </div></a>
+                    <h4 class="info-title">취약점 분석/모의해킹</h4>
+                    <p class="description">서버, 네트워크, PC 등의 다양한 자산들에 대한 취약점을 분석하고 모의해킹을 수행</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="info info-hover">
+                    <a href="\service\#Practice"><div class="icon icon-primary icon-circle">
+                        <i class="now-ui-icons ui-1_zoom-bold"></i>
+                    </div></a>
+                    <h4 class="info-title">침해사고 대응 훈련</h4>
+                    <p class="description">조직내의 침해사고에 대한 대응과 인식재고를 위한 훈련을 지원합니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Investment -->
+<div class="section section-components" data-background-color="dark-red" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ml-auto mr-auto">
+                <h2 class="text-center title" style="color:rgba(255, 255, 255, 255)">
+                        <p class="lead">보안에 대한 투자는<br>
+                            위험관리를 통해 적절한 보호대상을 찾고<span style='color: #FFF9C4;'><b class="pro rellax" data-rellax-speed="-2">Risk Management</b></span>,<br>
+                            자원을 적절하게 사용할 수 있도록 의사 결정 권한과 책임 구조를 명확히 정립해야 하며<span style="color: #FFF9C4;"><b class="pro">Governance</b></span>,<br>
+                            각종 법, 제도적 규제 및 권고에 철저한 대응을 할 수 있어야 한다<span style="color: #FFF9C4;"><b class="pro">Compliance</b></span>.
+                        </p>
+                </h5>
+                <div class="space-50"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Product -->
+<!--     *********     FEATURES 7      *********      -->
+<div class="features-7 section-image" style="background-image: url('{% static "assets/img/bg11.jpg" %}')">
+    <div class="col-md-8 mr-auto ml-auto text-center">
+        <h2 class="title">제품</h2>
+        <div class="icon">
+            <i><img src="{% static 'assets/img/tosee64x64.png' %}" alt=""></i>
+        </div>
+        <h4 class="description">ToSee는 기업과 개인 사용자들이<br> 안전하게 PC를 사용하는데 필요한 다양한 기능들을 제공하고 있습니다.</h4>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="info info-horizontal">
+                    <div class="icon">
+                        <i class="now-ui-icons ui-1_zoom-bold"></i>
+                    </div>
+                    <div class="description">
+                        <h5 class="info-title">PC취약점 분석</h5>
+                        <p class="description">안전의 가장 중요한 요소는 취약한 부분을 최소화하는 것으로부터 시작해야 합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info info-horizontal">
+                    <div class="icon">
+                        <i class="now-ui-icons objects_key-25"></i>
+                    </div>
+                    <div class="description">
+                        <h5 class="info-title">방화벽</h5>
+                        <p class="description">기존의 OS에서 제공하는 방화벽은 외부에서 PC 내부로 들어오는 트래픽만 관리하고 있으나 PC 내부에서 외부로 나가는 트래픽의 관리도 똑같이 중요합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info info-horizontal">
+                    <div class="icon">
+                        <i class="now-ui-icons design_vector"></i>
+                    </div>
+                    <div class="description">
+                        <h5 class="info-title">네트워크 분석</h5>
+                        <p class="description">PC의 네트워크 사용현황을 그래픽을 통해 볼 수 있습니다. 이로 인해 이상 트래픽을 쉽게 잡아낼 수 있습니다. </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="info info-horizontal">
+                    <div class="icon">
+                        <i class="now-ui-icons files_box"></i>
+                    </div>
+                    <div class="description">
+                        <h5 class="info-title">USB</h5>
+                        <p class="description">USB의 사용을 차단하거나 사용시 사용내역을 남길 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info info-horizontal">
+                    <div class="icon">
+                        <i class="now-ui-icons tech_watch-time"></i>
+                    </div>
+                    <div class="description">
+                        <h5 class="info-title">1주 52시간 근무 지원</h5>
+                        <p class="description">근로기준법 개정에 따라 300인 이상 기업 및 기관은 2018년 7월부터 주당 최장 근로시간이 52시간으로 제한됩니다.(50~299인 2020년 1월, 5~49인 2021년 7월)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info info-horizontal">
+                    <div class="icon">
+                        <i class="now-ui-icons emoticons_satisfied"></i>
+                    </div>
+                    <div class="description">
+                        <h5 class="info-title">PC 유휴시간 점검</h5>
+                        <p class="description">PC의 유휴시간을 조사할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<!--     *********    END FEATURES 7      *********      -->
+{% endblock content %}

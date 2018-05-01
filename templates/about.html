@@ -1,0 +1,257 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<div class="page-header page-header-small">
+    <div class="page-header-image" data-parallax="true" style='background-image: url("{% static 'assets/img/bg6.jpg' %}");'>
+    <!--div class="rellax-header rellax-header-sky" data-rellax-speed="-10" data-rellax-zindex="5" style="background-image: url('{% static 'assets/img/header.jpg' %}');"-->
+
+    </div>
+    <div class="container">
+        <div class="content-center">
+            <h1 class="title rellax" data-rellax-speed="-3">주식회사 아이시큐어</h1>
+            <h3 class="rellax" data-rellax-speed="-4">since 2005</h3>
+        </div>
+    </div>
+</div>
+<div class="section section-story-overview">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <h2 class="title">우리는</h2>
+                <h5 class="description">사업 또는 주어진 임무의 목표를 이루기 위해 함께하는 파트너로써 신뢰와 성실로써 서비스와 제품을 제공하려고 노력하고 있습니다.</h5>
+            </div>
+        </div>
+    <div class="separator separator-primary">
+    </div>
+    </div>
+</div>
+<!--     *********    PROJECTS     *********      -->
+<div class="projects-1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <h2 class="title">기술 스택</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 px-0">
+                    <!--div class="card card-background card-background-product card-no-shadow" style="background-color:#eeeeee"-->
+                    <div class="card" style="min-height: 300px;">
+                        <div class="card-body">
+                            <!--h6 class="category">보안</h6-->
+                            <h3 class="card-title">
+                                    제품
+                            </h3>
+                            <p class="description" align="left">
+                                2005년 watchfire사(IBM 인수)의 appscan제품과 acunetix의 웹취약점 분석 제품을 공급하며 KISA의 웹취약점 분석 서비스를 구축하였습니다.<br>
+                                watchfire 본사가 있는 이스라엘에 파견을 가서 한글화를 담당하기도 했습니다.<br>
+                                자동화 도구의 경우 오탐발생이 현저하게 높아 단독으로 실행한 결과를 참고하기에는 어려움이 많습니다.<br>
+                                2008년 Data Loss prevention 제품인 verdasys 제품을 국내에 최초 소개했습니다.<br>
+                            </p>
+                            <!-- a href="#pablo" class="btn btn-danger btn-round">
+                                <i class="now-ui-icons ui-1_send"></i> View Book
+                            </a-->
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 px-0">
+                    <div class="card" style="min-height: 300px;">
+                        <div class="card-body">
+                            <!--h6 class="category">개발</h6-->
+                            <h3 class="card-title">개발</h3>
+                            <p class="description" align="left">
+                                C, delphi, python, shell script등을 활용하여 다양한 개발과 업무자동화를 진행하고 있습니다.<br>
+                                제품 개발, 업무 자동화, 데이터 분석등에 사용하고 있으며, 최근 머신러닝과 관련된 내부 study를 진행중에 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 px-0">
+                    <div class="card" style="min-height: 300px;">
+                        <div class="card-body">
+                            <!--h6 class="category">보안</h6-->
+                            <h3 class="card-title">대용량 로그 분석</h3>
+                            <p class="description" align="left">
+                                Elasticsearch, logstash, kibana, apache flume을 활용하여 fortigate 방화벽의 로그들을 분석하고 있습니다.<br>
+                                Elasticsearch는 분산형 RESTful 검색 및 분석 엔진입니다. logstash는 데이터 수집 및 로그 parsing의 역할을 하고 있으며, kibana는 시각화 플랫폼으로 3개의 제품들을 Elastic Stack(ELK)라고 부릅니다.<br>
+                                Apache flume은 대용량의 로그를 수집하고 이동시키는 활용합니다.<br>
+                                10억개 가량의 document를 관리하고 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 px-0">
+                    <div class="card" style="min-height: 300px;">
+                        <div class="card-body">
+                            <!--h6 class="category">성능</h6-->
+                            <h3 class="card-title">웹사이트 속도 분석</h3>
+                            <p class="description" align="left">
+                                Sitespeed.io, grafana, graphite를 docker에 실어 운영을 하고 있습니다.<br>
+                                Sitespeed.io는 웹 사이트의 성능을 모니터링하고 측정할 수 있는 도구이고 모아진 데이터를 graphite에 보내주게됩니다.<br>
+                                Grafana를 통해 시작화 할 수 있습니다.<br>
+                                Docker는 가상환경을 지원해주어 소프트웨어의 개발, 운영, 배포를 편리하게 해주는 도구로 많이 사용됩니다.                            
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 px-0">
+                    <div class="card" style="min-height: 300px;">
+                        <div class="card-body">
+                            <!--h6 class="category">성능</h6-->
+                            <h3 class="card-title">취약점 분석/모의해킹</h3>
+                            <p class="description" align="left">
+                                새로운 취약점들에 대한 공부를 진행하고 있으며 새로운 취약점 탐지와 결과 분석에 수월하도록 점검 스크립트들을 상시 점검하고 있습니다.<br>
+                                사이트당 1~2대 부터 수백대의 전산 자원들에 이르기까지 대량의 민감한 자산들에 대한 취약점 분석시에도 빠르고 정확한 결과를 도출해내기 위해 노력하고 있습니다.<br>
+                                PC 취약점 분석을 위한 제품을 2015년부터 개발하기 시작하여 초기에는 스크립트 수준의 제품을 사용하다 UI와 추가 기능들을 개발하여 상용화 시켜 다양한 분야에 적용하고 있습니다.<br>
+                                웹사이트뿐만 아니라 서버, 네트워크 장비등 다양한 분야의 취약점 분석과 모의해킹을 진행하고 있습니다.                           
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                        
+                <div class="col-md-6 px-0">
+                    <div class="card" style="min-height: 300px;">
+                        <div class="card-body">
+                            <h3 class="card-title" id="firstHeading" class="firstHeading" lang="en"><span class="texhtml"><span style="font-family:cmr10, LMRoman10-Regular, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span></span></h3>
+                            <p class="description" align="left">
+                                TeX은 Donald Knuth이라는 스탠포드 대학 교수님이 만든 조판용 프로그램입니다.<br>일반텍스트 파일을 사용하여 인쇄 또는 화면보기를 위해 고품질 문서로 변환합니다. LaTeX는 TeX 위에 구축 된 매크로 시스템으로 사용을 단순화하고 많은 일반적인 서식 지정 작업을 자동화하는 것을 목표로합니다.<br>
+                                학술 저널 및 도서의 사실상 표준이며 freeware에서 제공하는 최고의 인쇄술을 제공합니다.<br>
+                                Word, PPT와 같은 WYSIWYG, What You See Is What You Get 보다는 접근하기가 어려우나 구조적인 문서를 작성하는데 많은 도움을 줍니다.<br>
+                                문서의 포맷보다 문서 내용 자체에 집중할 수 있게 됩니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--     *********    END PROJECTS 1      *********      -->
+<!--     *********    CONTACT US    *********      -->
+<div id="contact-page">
+    <div class="contact-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 ml-auto mr-auto">
+                    <h2 class="title">Message</h2>
+                    <p class="description">서비스, 제품과 관련된 연락이 필요하시면 메시지를 남겨주세요. 가능한 빠른 시간내에 연락드리도록 하겠습니다.<br><br>
+                    </p>
+                    <form role="form" id="contact-form" method="post">
+                        <label>성함</label>
+                        <div class="input-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="now-ui-icons users_circle-08"></i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="성함">
+                            </div>
+                        </div>
+                        <label>이메일</label>
+                        <div class="input-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="now-ui-icons ui-1_email-85"></i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="이메일">
+                            </div>
+                        </div>
+                        <label>연락처</label>
+                        <div class="input-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="now-ui-icons tech_mobile"></i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="전화번호">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>전달할 내용</label>
+                            <textarea name="message" class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <div class="submit text-center">
+                            <input type="submit" class="btn btn-primary btn-raised btn-round" value="전달" />
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-5 ml-auto mr-auto">
+                    <div class="info info-horizontal mt-5">
+                        <div class="icon icon-primary">
+                            <i class="now-ui-icons location_pin"></i>
+                        </div>
+                        <div class="description">
+                            <h4 class="info-title">주소</h4>
+                            <p> 서울특별시 금천구 가산디지털1로 131<br>
+                                A동 2001-가<br>
+                                (가산동, BYC하이시티)
+                            </p>
+                        </div>
+                    </div>
+                    <!--div class="info info-horizontal">
+                        <div class="icon icon-primary">
+                            <i class="now-ui-icons tech_mobile"></i>
+                        </div>
+                        <div class="description">
+                            <h4 class="info-title">전화번호</h4>
+                            <p> <br>
+                                <br>
+                                Mon - Fri, 8:00-22:00
+                            </p>
+                        </div>
+                    </div-->
+                    <div class="info info-horizontal">
+                        <div class="icon icon-primary">
+                            <i class="business_briefcase-24 now-ui-icons"></i>
+                        </div>
+                        <div class="description">
+                            <h4 class="info-title">사업자등록번호</h4>
+                            <p> 주식회사 아이시큐어<br>
+                                사업자등록번호 &middot; 107-86-67359
+                            </p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+</div>
+<!--     *********    CONTACT US    *********      -->
+<div id="contact-page">
+    <div id="contactUs2Map" class="big-map"></div>
+    </div>
+</div>
+<!-- Map AIzaSyCzMzKzhxcSt1spCnUefZ9ljQRM3UIElwM -->
+<!--section id="contact" class="map">
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.298356761401!2d126.88286916019342!3d37.47728515082774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9f24854c98e9%3A0x879a55f808c14ee0!2zKOyjvCnslYTsnbTsi5ztgZDslrQ!5e0!3m2!1sko!2skr!4v1464945091103"</iframe>
+    <br />
+    <small>
+        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.298356761401!2d126.88286916019342!3d37.47728515082774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9f24854c98e9%3A0x879a55f808c14ee0!2zKOyjvCnslYTsnbTsi5ztgZDslrQ!5e0!3m2!1sko!2skr!4v1464945091103"></a>
+    </small>
+    </iframe>
+</section-->
+<script>
+    function myMap() {
+    var isecure = {lat: 37.477490, lng: 126.882381};
+
+    var mapProp= {
+        center: isecure,
+        zoom:17,
+    };
+    var map=new google.maps.Map(document.getElementById("contactUs2Map"),mapProp);
+    var marker = new google.maps.Marker({
+          position: isecure,
+          map: map
+    });
+    }
+    </script>
+    
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzMzKzhxcSt1spCnUefZ9ljQRM3UIElwM&callback=myMap"></script>
+{% endblock %}
+
+{% block extrajs %}
+
+{% endblock %}

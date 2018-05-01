@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<div class="page-header clear-filter" filter-color="orange">
+    <div class="page-header-image" data-parallax="true" style="background-image: url('{% static 'assets/img/header.jpg' %}');">
+    </div>
+    <div class="container">
+        <div class="content-center brand">
+            <img class="n-logo" src="{% static 'assets/img/iSecure/아이시큐어-03.png' %}" alt="">
+            <h1 class="h1-seo">아이시큐어</h1>
+            <h3>#ISMS 인증 컨설팅 #PC취약점 분석 #정보시스템 종합계획 #기반시설 취약점 분석 및 평가</h3>
+        </div>
+        <h6 class="category category-absolute">
+            <a href="http://www.isecurekr.com/" target="_blank">iSecure Inc.</a>
+            </a> 
+            <!--Coded by
+            <a href="https://www.creative-tim.com" target="_blank">
+                <img src="./assets/img/creative-tim-white-slim2.png" class="creative-tim-logo" />
+            </a--></h6>
+    </div>
+</div>
+
+<div class="section section-tabs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 col-xl-6 ml-auto mr-auto">
+                <p class="category">ISMS 정보보호 관리체계 인증 컨설팅</p>
+                <!-- Nav tabs -->
+                <div class="card">
+                    <ul class="nav nav-tabs justify-content-center" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#ISMS" role="tab">
+                                <i class="now-ui-icons objects_umbrella-13"></i> ISMS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#인증대상" role="tab">
+                                <i class="now-ui-icons shopping_cart-simple"></i> 인증 대상
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#기간" role="tab">
+                                <i class="now-ui-icons shopping_shop"></i> 기간
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#투자" role="tab">
+                                <i class="now-ui-icons ui-2_settings-90"></i> 투자
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <!-- Tab panes -->
+                        <div class="tab-content text-center">
+                            <div class="tab-pane active" id="ISMS" role="tabpanel">
+                                <p>기업이 주요 정보자산을 보호하기 위해 수립, 관리, 운영하는 정보보호 관리체계가 인증기준에 적합한지를 심사하여 인증을 부여하는 제도</p>
+                            </div>
+                            <div class="tab-pane" id="인증대상" role="tabpanel">
+                                <p>기업에 자율로 신청할 수 있으며, 법적인 의무 대상자는 ISP, IDC 그리고 상급 종합병원과 학교등이 포함된다. 
+                                    전기통신사업법의 전기통신 사업자로 전국적으로 정보통신망 서비스를 제공하는 사업자 중 연매출 100억이상, 3개월간 일일평균 이용자수 100만명 이상인 경우도 포함된다.</p>
+                            </div>
+                            <div class="tab-pane" id="기간" role="tabpanel">
+                                <p>인증에 필요한 기간은 최소 4개월 이상 소요됩니다. 
+                                    인증 준비, 2개월 이상의 운영 증적, 인증 심사, 결함 조치등을 포함하면 실제 6개월 이상 1년의 소요기간이 필요합니다.</p>
+                            </div>
+                            <div class="tab-pane" id="투자" role="tabpanel">
+                                <p>각 조직에 따라 다르겠지만 인증컨설팅, 주요서비스 기술적 보안 조치, 내부 보안 강화, 담당인력등의 투자가 필요하게 됩니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 col-lg-8 col-xl-6 ml-auto mr-auto">
+                <p class="category">ToSee: PC 취약점 분석</p>
+                <!-- Tabs with Background on Card -->
+                <div class="card">
+                    <ul class="nav nav-tabs nav-tabs-neutral justify-content-center" role="tablist" data-background-color="orange">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#취약점분석" role="tab">취약점분석</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#네트워크" role="tab">네트워크</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#방화벽" role="tab">방화벽</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#52시간" role="tab">52시간</a>
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <!-- Tab panes -->
+                        <div class="tab-content text-center">
+                            <div class="tab-pane active" id="취약점분석" role="tabpanel">
+                                <p>PC 취약점 분석</p>
+                            </div>
+                            <div class="tab-pane" id="네트워크" role="tabpanel">
+                                <p>네트워크 시각화</p>
+                            </div>
+                            <div class="tab-pane" id="방화벽" role="tabpanel">
+                                <p>방화벽</p>
+                            </div>
+                            <div class="tab-pane" id="52시간" role="tabpanel">
+                                <p>
+                                   1주 52시간 근무제 지원
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Tabs on plain Card -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Section Tabs -->
+<div class="main">
+    <div class="section section-images">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="hero-images-container">
+                        <img src="{% static 'assets/img/isms.jpg' %}" alt="">
+                    </div>
+                    <div class="hero-images-container-1">
+                        <img src="assets/img/hero-image-2.png" alt="">
+                    </div>
+                    <div class="hero-images-container-2">
+                        <img src="assets/img/hero-image-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
