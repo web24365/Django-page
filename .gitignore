@@ -3,7 +3,8 @@
 __pycache__
 *venv
 db.sqlite3
+*.sqlite3
 /static
 .DS_Store
 *.pdf
-*복사본*
+.vscode
