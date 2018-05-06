@@ -1,7 +1,29 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block content %}
-<div class="page-header page-header-small">
+<div class="section section-components" style="background-position: center bottom;background-size: 100% 150px;" >
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-10 ml-auto mr-auto">
+                    <div class="row">
+                        <div class="col-md-5 text-left">
+                                <div class="content-center brand">
+                                    <h1 class="title">새로운 소식들</h1>
+                                    <h3 class="description" data-rellax-speed="-4">Blog</h3>
+                                </div>
+                        </div> 
+                        <div class="col-md-7">
+                            <div class="card-image"></div>
+                                <img class="img" src="{% static 'assets/img/test.png' %}" alt="하나하나 쌓아올리는 보안"/> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--div class="page-header page-header-small">
     <div class="page-header-image" data-parallax="true" style='background-image: url("{% static 'assets/img/bg5.jpg' %}");'>
     </div>
     <div class="container">
@@ -10,7 +32,7 @@
             <h3 class="rellax" data-rellax-speed="-4">새로운 소식들</h3>
         </div>
     </div>
-</div>
+</div-->
 <!--div class="section section-story-overview">
     <div class="container">
         <div class="row">

@@ -1,7 +1,29 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block content %}
-<div class="page-header page-header-small">
+<div class="section section-components" style="background-position: center bottom;background-size: 100% 150px;" >
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-10 ml-auto mr-auto">
+                    <div class="row">
+                        <div class="col-md-5 text-left">
+                                <div class="content-center brand">
+                                    <h1 class="title rellax" data-rellax-speed="-3">보안</h1>
+                                    <h3 class="description rellax" data-rellax-speed="-3">Security</h3>
+                                </div>
+                        </div> 
+                        <div class="col-md-7">
+                            <div class="card-image"></div>
+                                <img class="img" src="{% static 'assets/img/inter.png' %}" alt="하나하나 쌓아올리는 보안"/> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--div class="page-header page-header-small">
         <div class="page-header-image" data-parallax="true" style="background-image: url('{% static 'assets/img/bg8.jpg' %}');">
         </div>
     <div class="container">
@@ -10,55 +32,60 @@
             <h3 class="text-center" data-rellax-speed="-4">Security</h3>
         </div>
     </div>
-</div>
+</div-->
+
 <div class="section">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 ml-auto mr-auto text-center">
+            <div class="col-md-8 ml-auto mr-auto">
                 <!--h2 class="title">보안의 정의</h2-->
-                <h5 class="description">보안에는 기밀성(confidentiality), 무결성(integrity), 가용성(availability)이라는 세 가지 측면이 있습니다.<br>
+                <h4 class="description">보안에는 기밀성(confidentiality), 무결성(integrity), 가용성(availability)이라는 세 가지 측면이 있습니다.<br>
                 기밀성은 비인가자들이 민감한 정보를 볼 수 없게 막는 것이며,<br>
                 무결성은 마지막으로 인가된 상태 그대로 모든 데이터가 남겨져 있는것,<br>
                 가용성은 적법한 사용자가 시스템에 접근하는 것을 공격자가 막을 수 없다는 것을 보장하는 것입니다.<br>
-                이 3가지 요소를 최대화 하는 것이 보안의 목표입니다.</h5>
+                이 3가지 요소를 최대화 하는 것이 보안의 목표입니다.</h4>
             </div>
         </div>
-        <div class="separator separator-primary"></div>
-        <div class="section-story-overview">
+    </div>
+</div>
+<div class="section" id="Plan">
+        <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="image-container image-left" style="background-image: url('/static/assets/img/login.jpg')">
-                        <!-- First image on the left side -->
-                        <p class="blockquote blockquote-primary">"보안은 제품이 아니라 그 자체가 process이다.<br>안전을 보장하기 위해서는 process를 만들기 시작해야 합니다."
-                            <br>
-                            <br>
-                            <small>--디지털 보안의 비밀과 거짓말, 브루스 슈나이어</small>
-                           
-                        </p>
+                <div class="col-md-8 ml-auto mr-auto">
+                    <div class="card-image">
+                        <img class="img" src="{% static 'assets/img/chain1.png' %}">
                     </div>
-                    <!-- Second image on the left side of the article -->
-                    <div class="image-container" style="background-image: url('/static/assets/img/security-2.jpg')"></div>
-                </div>
-                <div class="col-md-5">
-                    <!-- First image on the right side, above the article -->
-                    <div class="image-container image-right" style="background-image: url('/static/assets/img/security-1.jpg')"></div>
+                    <br>
                     <h3>적절한 보안 프로세스를 통해 조직/개인의 목표에 안전하게 도달할 수 있습니다.</h3>
-                    <p>보안의 목표를 이루기 위해 일단 우리를 둘러싸고 있는 정보보호를 위한 환경은 복잡합니다. 이것은 불안정하다는 의미이며, 취약점은 피할 수 없고, 보안 제품은 항상 부족하기 때문에 조직에 맞게 정립된 프로세스가 가장 중요합니다.
+                    <p>보안의 목표를 이루기 위해 일단 우리를 둘러싸고 있는 정보보호를 위한 환경은 복잡합니다.<br>
+                    이것은 불안정하다는 의미이며, 취약점은 피할 수 없고, 보안 제품은 항상 부족하기 때문에 조직에 맞게 정립된 프로세스가 가장 중요합니다.
                     </p>
                     <p>
                         조직에 맞는 프로세스를 정립하기 위해서는 3가지를 최우선적으로 고려해야 합니다.<br>
                         첫째는 위험관리를 통해 적절한 보호대상을 찾고 그에 맞는 보안대책을 마련해야 하며, 둘째는 보안정책의 지배구조를 정확히 하여 자원을 적절하게 사용할 수 있도록 의사 결정 권한과 책임 구조를 명확히 정립해야 하며, 셋째는 각종 법, 제도적 규제 및 권고에 철저한 대응을 할 수 있어야 합니다.
                     </p>
+                    <div class="card-image">
+                        <img class="img" src="{% static 'assets/img/security.png' %}">
+                    </div>
                     <p>위의 3가지를 잘 반영하여 프로세스를 만들기 위한 best practice는 ISMS: Information Security Management System 정보보호 관리체계 입니다. PIMS: Personal Information Management System 개인정보보호 관리체계는 좀 더 복잡한 체계를 가지고 있으며, 세계 표준인 ISO/IEC 27001 인증 체계도 있습니다.
                     </p>
-                    <p>기존 조직의 정보보호 활동이 부분적이고, 일회성이며, 산발적인 대응이 ISMS와 같은 정보보호 관리체계 구축을 통해 균형적이고, 지속적 관리가 가능하고, 체계적인 대응이 가능하게 됩니다. ISMS는 인증 취득이 목표가 아닌 조직의 정보보호 수준을 획기적으로 향상시킬 수 있게됩니다.</p>
+                    <p>기존 조직의 정보보호 활동이 부분적이고, 일회성이며, 산발적인 대응이 ISMS와 같은 정보보호 관리체계 구축을 통해 균형적이고, 지속적 관리가 가능하고, 체계적인 대응이 가능하게 됩니다.<br>
+                    ISMS는 인증 취득이 목표가 아닌 조직의 정보보호 수준을 획기적으로 향상시킬 수 있게됩니다.</p>
+                    <div class="card-image">
+                        <img class="img" src="{% static 'assets/img/process.png' %}">
+                    </div>
                     <p>정보보호는 조직/개인의 목표를 안전하게 도달하게 하기 위한 선택이 아닌 필수조건입니다.</p>
+                    <p class="blockquote blockquote-primary">"보안은 제품이 아니라 그 자체가 process이다.<br>안전을 보장하기 위해서는 process를 만들기 시작해야 합니다."
+                        <br>
+                        <br>
+                        <small>--디지털 보안의 비밀과 거짓말, 브루스 슈나이어</small>
+                       
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Investment -->
+<!-- DABOS -->
 <div class="section section-components" data-background-color="dark-red" >
     <div class="container">
         <div class="row">

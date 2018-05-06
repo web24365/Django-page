@@ -1,8 +1,32 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block content %}
-<div class="page-header page-header-small">
-    <div class="page-header-image" data-parallax="true" style="background-image: url('{% static 'assets/img/bg3.jpg' %}');">
+<div class="section section-components" style="background-position: center bottom;background-size: 100% 150px;" >
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-10 ml-auto mr-auto">
+                    <div class="row">
+                        <div class="col-md-5 text-left">
+                                <div class="content-center brand">
+                                    <!--h1 class="title">서비스</h1-->
+                                    <h1 class="title rellax" data-rellax-speed="-3">서비스</h1>
+
+                                    <h3 class="description rellax" data-rellax-speed="-3">Service</h3>
+                                </div>
+                        </div> 
+                        <div class="col-md-7">
+                            <div class="card-image"></div>
+                                <img class="img" src="{% static 'assets/img/neural.png' %}" alt="하나하나 쌓아올리는 보안"/> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--div class="page-header page-header-small">
+    <div class="page-header-image" data-parallax="true" style="background-image: url('{% static 'assets/img/bootstrap.png' %}');">
     </div>
     <div class="container">
         <div class="content-center">
@@ -10,7 +34,7 @@
             <h3 class="text-center" data-rellax-speed="-4">Service</h3>
         </div>
     </div>
-</div>
+</div-->
 <!-- Services -->
 <div class="section section-components">
     <div class="container">
@@ -78,34 +102,37 @@
                 <p>
                     <b class="text-info">인증심사</b>는 최초 심사와 2회의 사후 심사, 그 후 갱신심사로 이루어져있습니다.<br>
                     104개의 인증기준을 가지고 있으며 정보보호관리과정 5단계에 12개의 인증기준, 정보보호대책 부분에 13개분야 92개의 인증기준으로 되어 있습니다.<br>
-                    <div class="image-container" style="background-image: url('{% static 'assets/img/isecure/standard.png' %}')"></div><br>
+                    <div class="card-image">
+                        <img class="img img-raised rounded" src="{% static 'assets/img/isecure/standard.png' %}">
+                    </div>
+                    <br>
                     <b class="text-info">심사대상</b>은 기업 자율 신청을 할 수 있으며, 의무 대상자는 ISP, IDC, 정보통신서비스 매출액 100억이상, 일반 매출 1,500억이상, 상급종합병원, 학교등이 포함됩니다.<br>
                     의무대상자의 미인증시 매년 3,000만원의 과태료가 부과됩니다.
                     인증심사 절차는 준비, 심사, 인증의 순서로 진행되며 짧게는 4개월, 최소한 6개월 이상의 시간이 소요됩니다. 2개월 이상의 운영 증적과 최대 90일가량의 결함조치기간이 포함되므로 적지 않은 시간이 소요됩니다.<br>
                 </p>
                 <p>
                     아래의 표는 <b class="text-info">2017년 아이시큐어의 고객사 컨설팅 결과 결함 내용</b>등을 정리한 것으로 대부분의 경우 서비를 운영하면서 발생하는 문제들과 중요 서비스에 대한 접근통제에 관련된 문제가 최상위에 있음을 알 수 있습니다. 이는 최근 몇 년간의 결과와 같습니다.<br>
-                    <div class="image-container" style="background-image: url('{% static 'assets/img/isecure/result.png' %}')"></div><br>
+                    <div class="card-image">
+                        <img class="img img-raised rounded" src="{% static 'assets/img/isecure/result.png' %}">
+                    </div>
                 </p>
                 <h6 class="category text-danger">
                     <i class="now-ui-icons now-ui-icons media-2_sound-wave"></i> 컨설팅
                 </h6>
                 <p>
-                    <b class="text-info">컨설팅의 수행의 주체</b>는 관리, 기술 부분의 컨설턴트와 고객사의 보안 담당자가 주축이 되어 경영진의 적극적인 지원이 필요합니다.<br>
-                   
-                    <div class="image-container" style="background-image: url('{% static 'assets/img/isecure/consulting.png' %}')"></div><br>
+                    <b class="text-info">컨설팅의 수행의 주체</b>는 관리, 기술 부분의 컨설턴트와 고객사의 보안 담당자가 주축이 되어 경영진의 적극적인 지원이 필요합니다.
+                    <div class="card-image">
+                        <img class="img img-raised rounded" src="{% static 'assets/img/isecure/consulting.png' %}">
+                    </div>
+                </p>
+                <p>
                     <b class="text-info">컨설턴트</b>는 보안담당자와 각 부문의 담당자들과 인터뷰와 현장조사를 통해 현재의 보안현황을 파악하고 보안정책부터 시작하여 해당 조직에 맞는 보안 프로세스를 구축해 나갈 것입니다.<br>
                     최종적으로 충분한 교육을 통해 보안인식 재고와 인증심사 대비를 하게 됩니다.<br>
-                    <div class="image-container" style="background-image: url('{% static 'assets/img/isecure/process.png' %}')"></div><br>
+                    <div class="card-image">
+                        <img class="img img-raised rounded" src="{% static 'assets/img/isecure/process.png' %}">
+                    </div>
                 </p>
-                <h6 class="category text-danger">
-                    <i class="now-ui-icons now-ui-icons media-2_sound-wave"></i> 중요성
-                </h6>
-                <p>
-                    인증 여부를 떠나 기업/조직/개인의 정보보호를 위한 활동은 사회적 존재 가능성을 결정짓는 중요한 역할을 하고 있습니다.<br>
-                    <b class="text-info">보안에 대한 관심과 적절한 투자는 사업의 목표를 이루기 위한 필수조건입니다</b>.<br>
-                    보안에 대한 위험을 감소시키기 위한 투자로는 주요 자산들에 대한 보호, 사무 환경 보호, 보안인식재고등에 필요합니다.<br>
-                </p>
+                
                 <h6 class="category text-danger">
                     <i class="now-ui-icons now-ui-icons media-2_sound-wave"></i> 위험 관리
                 </h6>
@@ -113,7 +140,17 @@
                     <b class="text-info">위험</b>을 수용(특정 위험이 현실화되기 전에 적극적인 조치를 취하지 않고 사후에 조치를 취하는 대응 방식)하는 이유는 해당 위험의 노출 수준이 높지 않을 경우 비용 대비 얻을 수 있는 효과가 미비하다고 생각하기 때문입니다.<br>
                     하지만 많은 보안사고에서 보여주듯이 위험 수준은 이미 감내할 수 있는 임계치에 도달해 있으며 무관심한 사이 벌어지는 보안사고는 큰 피해를 유발시킬 수 있습니다.<br>
                     고객에 잘못 보낸 문자 하나로 신고를 통해 수백만의 과태료를 피할 수 없는 상황에서 보다 <b class="text-info">적극적인 위험감소 활동</b>이 필요합니다.<br>
-                    <div class="image-container" style="background-image: url('{% static 'assets/img/isecure/investment.png' %}')"></div><br>
+                    <div class="card-image">
+                        <img class="img img-raised rounded" src="{% static 'assets/img/isecure/investment.png' %}">
+                    </div>
+                </p>
+                <h6 class="category text-danger">
+                    <i class="now-ui-icons now-ui-icons media-2_sound-wave"></i> 필요성
+                </h6>
+                <p>
+                    인증 여부를 떠나 기업/조직/개인의 정보보호를 위한 활동은 사회적 존재 가능성을 결정짓는 중요한 역할을 하고 있습니다.<br>
+                    <b class="text-info">보안에 대한 관심과 적절한 투자는 사업의 목표를 이루기 위한 필수조건입니다</b>.<br>
+                    보안에 대한 위험을 감소시키기 위한 투자로는 주요 자산들에 대한 보호, 사무 환경 보호, 보안인식재고등에 필요합니다.<br>
                 </p>
             </div>
         </div>
